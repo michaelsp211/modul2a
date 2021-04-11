@@ -34,3 +34,4 @@ Route::get('/product/fetch/{id}', [ProductController::class, 'fetchById'])->name
 Route::get('/product/edit/{id}', [ProductController::class, 'edit'])->name('product.edit');
 
 // Bayu - 1905551059
+// test

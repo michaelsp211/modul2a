@@ -26,7 +26,7 @@ class CategoryController extends Controller
         $categories = Categories::all();
         return redirect('/category');
     }
-
+/*test*/
     public function update(Request $request) {
         $request->validate([
             'id' => 'required',
