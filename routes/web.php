@@ -32,3 +32,5 @@ Route::put('/product/update', [ProductController::class, 'update'])->name('produ
 Route::delete('/product/delete/{id}', [ProductController::class, 'delete'])->name('product.delete');
 Route::get('/product/fetch/{id}', [ProductController::class, 'fetchById'])->name('product.byId');
 Route::get('/product/edit/{id}', [ProductController::class, 'edit'])->name('product.edit');
+
+// Bayu - 1905551059
